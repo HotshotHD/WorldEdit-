@@ -40,7 +40,7 @@ class Utils {
 		$z1 = $pos1->z;
 		$z2 = $pos2->z;
 		
-		
+		// TODO
 	} 
 	
 	public function pasteSelection(Player $player) {
@@ -56,6 +56,7 @@ class Utils {
 		$z1 = $pos1->z;
 		$z2 = $pos2->z;
 		
+		// TODO
 	}
 	
 	public function cutSelection(Player $player) {
