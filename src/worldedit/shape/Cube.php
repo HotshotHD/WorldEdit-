@@ -14,7 +14,7 @@ class Cube {
 	private $height;
 	private $width;
 	
-	public function __construct(Vector3 $center, Level $level, int $height, $width) {
+	public function __construct(Vector3 $center, Level $level, int $height, int $width) {
 		$this->center = $center;
 		$this->level = $level;
 		$this->height = $height;
