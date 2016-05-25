@@ -15,7 +15,7 @@ class BasePlugin extends PluginBase {
 	}
 	
 	public function onCommand(CommandSender $sender, Command $cmd, $label, array $args) {
-	    $cmds = new Commands($this);
+		 $cmds = new Commands($this);
 		
 		$cmds->onCommand($sender,$cmd, $label,$args);
 	}
